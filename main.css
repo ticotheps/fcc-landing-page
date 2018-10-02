@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("http://www.mckenziejewelers.com/images/slideshows/about/store2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+main {
+  border: solid red 5px;
+  background-color: white;
+  align-items: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  border: solid blue 5px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+#nav-bar {
+  border: solid yellow 2px;
+  width: 100%;
+}
+
+.nav-list {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightgray;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.nav-link {
+  float: left;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+#header-img {
+  height: 50%;
+  border: solid green 3px;
+}
+
+.hours, .address {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hours-container, .address-container {
+  margin: 20px;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  border: solid green 5px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
