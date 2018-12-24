@@ -1,64 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>McKenzie Jewelers</title>
-    <link href="main.css" rel="stylesheet" type="text/css" />
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>McKenzie Jewelers</title>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
+  <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
 
-  <body class="flex-container flex-column">
+<body class="flex-container flex-column">
 
     <header id="header" role="banner">
       <figure class="logo-fig">
-          <img id="header-img" class="logo-image" src="http://imgs-s1.jewelryimages.net/mckenziejewelers/logo.png?t=20180216112132" alt="company logo here">
+          <a href="http://www.mckenziejewelers.com/" target="_target"><img id="header-img" class="logo-image" src="http://imgs-s1.jewelryimages.net/mckenziejewelers/logo.png?t=20180216112132" alt="McKenzie Jewelers logo" /></a>
       </figure>
+
+      <nav id="nav-bar" role="navigation">
+          <ul class="nav-list flex-container">
+            <li><a class="nav-link" href="#header">Home</a></li>
+            <li><a class="nav-link" href="#tech">Our Technology</a></li>
+            <li><a class="nav-link" href="#jeweler">Our Jeweler</a></li>
+            <li><a class="nav-link" href="#hours">Our Hours</a></li>
+            <li><a class="nav-link" href="#footer">Contact Us</a></li>
+          </ul>
+      </nav>
     </header>
 
-    <nav id="nav-bar" class="flex-container flex-row" role="navigation">
-        <ul class="nav-list" class="flex-container flex-row">
-          <li class="nav-link"><a href="default.asp">Home</a></li>
-          <li class="nav-link"><a href="default.asp">About Us</a></li>
-          <li class="nav-link"><a href="default.asp">Our Collections</a></li>
-          <li class="nav-link"><a href="default.asp">Our Services</a></li>
-          <li class="nav-link"><a href="default.asp">Our Guarantee</a></li>
-          <li class="nav-link"><a href="default.asp">Contact Us</a></li>
-        </ul>
-    </nav>
-
     <main class="flex-container flex-column"role="main">
-      <h1>Our Expertise. Your Imagination. Unlimited Possibilities.</h1>
-      <figure class="fade-fig">
-        <img class="fade-image" src="#" alt="A slideshow of three images here that fade in/out.">
-        <figcaption>A slideshow of three images here that fade in/out.</figcaption>
+      <h1>Experience creative <span class="freedom-font">freedom</span>.</h1>
+
+      <figure class="video">
+        <iframe id="video" width="700" height="394" src="https://www.youtube.com/embed/PnFhJ6AObO0?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <figcaption class="video-caption flex-container">Our <span class="state-text">state-of-the-art</span> software can help turn your dream designs into reality!</figcaption>
       </figure>
-      <h2>The most advanced 3D design software for jewelery.</h2>
-      <h2>The most experienced Master Bench Goldsmith in the Thumb.</h2>
-      <h2>The most unique, one-of-a-kind ring she's ever experienced.  </h2>
-      <figure class="embed-fig">
-        <img class="embed-image" src="#" alt="Image of embedded YouTube video here.">
-        <figcaption>Image of embedded YouTube video here.</figcaption>
-      </figure>
+
+      <div id="tech" class="most-advanced flex-container">
+        <h2 class="most-advanced-text">The most <span class="fancy-aqua-font">advanced</span> 3D design software for jewelery.</h2>
+        <div class="rhino-gold-container">
+          <a class="rhino-gold-logo" href="https://www.tdmsolutions.com/rhinogold/" target="_blank"><img src="https://www.tdmsolutions.com/tdm/imageswebpage/rhinogold_home/rhinogold-3d-modeling-jewelry-logo.png" alt="RhinoGold logo" /></a>
+          <figcaption class="rhino-gold-logo-caption">Click the picture above to learn about RhinoGold's advanced technology!</figcaption>
+        </div>
+      </div>
+
+      <div id="jeweler" class="most-experienced flex-container">
+        <h2 class="most-experienced-text">The most <span class="fancy-aqua-font">experienced</span> Master Bench Goldsmith in the Thumb.</h2>
+        <figure id="kent-bench-photo-container">
+          <a class="nav-link" href="http://www.mckenziejewelers.com/pages/our_services" target="_blank"><img class="kent-bench-photo" src="http://www.mckenziejewelers.com/images/slideshows/about/store10.jpg" alt="Kent fixing jewelery" /></a>
+          <figcaption class="kent-bench-photo-caption">Click the picture above for more info on our jeweler, Kent McKenzie, and the services he offers!</figcaption>
+        </figure>
+      </div>
+
+      <div class="most-unique flex-container">
+        <h2 class="most-unique-text">The most <span class="fancy-aqua-font">unique</span>, one-of-a-kind ring designed by <span class="fancy-aqua-font">you</span>.</h2>
+        <figure id="ring-photo-container">
+          <a class="nav-link" href="http://www.mckenziejewelers.com/collections" target="_blank"><img class="ring-photo" src="https://www.tdmsolutions.com/tdm/imageswebpage/features/Features_manufacture_2.png" alt="CAD jewelery" /></a>
+          <figcaption class="ring-photo-caption">Click the picture above to get some design ideas from our existing collections!</figcaption>
+        </figure>
+      </div>
+
+      <section class="phrases flex-container">
+        <div class="two-word-phrases">
+          <h3>Our <span class="freedom-font-small">Expertise</span>.</h3>
+          <h3>Your <span class="freedom-font-small">Imagination</span>.</h3>
+          <h3>Endless <span class="freedom-font-small">Possibilities</span>.</h3>
+        </div>
+
+        <figure class="kent-design-photo-container">
+          <a href="http://www.mckenziejewelers.com/about" target="_blank"><img class="kent-design-photo" src="https://scontent.fdet1-1.fna.fbcdn.net/v/t1.0-9/47576553_2242570802462198_8222680408194547712_n.jpg?_nc_cat=106&_nc_ht=scontent.fdet1-1.fna&oh=a89ea19d6de2e2ece1c05d2c86312ab2&oe=5C8F7DED" alt="Kent designing jewlery" /></a>
+          <figcaption class="kent-design-photo-caption">Click the picture above to learn more about our commitment to excellence and client satisfaction!</figcaption>
+        </figure>
+      </section>
+      <section class="signup">
+        <h4>Call us now at <span class="phone-number">(989)-269-8787</span> to schedule a design consult with our very own Master IJO Jeweler, Kent McKenzie.</h4>
+        <h5 class="latest">Want to stay up-to-date on the latest with McKenzie Jewelers?</h5>
+        <h5 class="first-to-know">Be the first to know about exciting new products, special events, store openings, and much more by signing up for our digital newsletter!</h5>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="email">Email: </label>
+          <input id="email" type="email" name="email" placeholder=" enter your email here" required /><br>
+          <input id="submit" type="submit" value="Sign Up" />
+        </form>
+      </section>
     </main>
 
-    <footer class="flex-container flex-row" role="contentinfo">
+    <footer id="footer" class="flex-container flex-row" role="contentinfo">
+
       <section class="address-container">
-        <h3>McKenzie Jewelers</h3>
-        <ul class="address">
+        <ul class="address flex-container flex-column">
+          <li id="address-font"><em>McKenzie Jewelers</em></li>
           <li>897 N. Van Dyke Suite E</li>
           <li>Bad Axe, MI 48413</li>
+          <li><a class="directions" href="https://www.google.com/maps/dir/Elkton,+Michigan+48731/Mckenzie+Jewelers,+897+N+Van+Dyke+Rd+ste+e,+Bad+Axe,+MI+48413/@43.8272602,-83.1260791,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x8826941dd4774c87:0x532f17fa2d313621!2m2!1d-83.1807847!2d43.8194594!1m5!1m1!1s0x88268c0c2d817465:0x35970099232e011a!2m2!1d-83.002175!2d43.8184521!3e0" target="_blank">Get Directions!</a></li>
           <li>(989) 269-8787</li>
         </ul>
       </section>
-      <section class="hours-container">
-        <h3>Our Store Hours</h3>
-        <ul class="hours">
-          <li>Monday-Friday: 9:00am - 7:00pm</li>
-          <li>Saturday: 9:00am - 3:00pm</li>
-          <li>Sunday: Closed</li>
+
+      <section id="hours" class="hours-container">
+        <ul class="hours flex-container flex-column">
+          <li id="hours-font"><em>Store Hours</em></li>
+          <li class="daily-hours">Monday-Wednesday: 9:00am - 8:00pm</li>
+          <li class="daily-hours">Thursday-Saturday: 9:00am - 9:00pm</li>
+          <li class="daily-hours">Sunday: 10:00am - 6:00pm</li>
+          <li class="daily-hours"><span class="green-font">Christmas</span> <span class="red-font">Eve</span>: 9:00am - 4:00pm</li>
+        </ul>
+      </section>
+
+      <section class="social-container">
+        <ul class="social flex-container flex-column">
+          <li id="social-font"><em>Social Media</em></li>
+          <li>Follow us on Facebook & Twitter:</li>
+          <ol class="social-list flex-container flex-row">
+            <li><a href="https://www.facebook.com/McKenzieJewelers/" target="_blank"><img class="facebook-logo" src="https://phoenixarizonadentistry.com/wp-content/uploads/2018/02/2000px-Facebook_Icon_Single_Path_-_Transparent__f_.svg_.png" alt="Facebook logo" /></a></li>
+            <li><a href="https://twitter.com/mckenziejewelry" target="_blank"><img class="twitter-logo" src="https://www.logolynx.com/images/logolynx/0c/0c45d0d95dcf2faaa773a46fa31abc0f.png" alt="Twitter logo" /></a></li>
+          </ol>
         </ul>
       </section>
     </footer>
-  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
 
 </html>
