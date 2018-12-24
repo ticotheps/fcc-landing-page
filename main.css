@@ -557,6 +557,128 @@ footer {
 /*CSS rules for iPad*/
 @media (max-width: 768px) {
 
+  #nav-bar {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+
+  #header-img {
+    margin-top: 10px;
+    max-width: 575px;
+    border: solid red 5px;
+  }
+
+  main {
+    max-width: 730px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .rhino-gold-img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  .rhino-gold-logo {
+    max-width: 250px;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  .two-word-phrases {
+    font-size: 45px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .freedom-font, .freedom-font-small {
+    margin-right: 15px;
+  }
+
+  .freedom-font {
+    font-size: 90px;
+  }
+
+  .freedom-font-small {
+    font-size: 55px;
+  }
+
+  .fancy-aqua-font {
+    font-size: 55px;
+  }
+
+  .most-advanced, .most-experienced, .most-unique {
+    margin: 10px 10px 50px 15px;
+  }
+
+  .most-advanced-text, .most-experienced-text, .most-unique-text {
+    font-size: 35px;
+  }
+
+  .most-advanced-text {
+    padding-right: 10px;
+  }
+
+  #advanced-text {
+    margin-right: 30px;
+  }
+
+  .most-experienced-text {
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  #experienced-text {
+    margin-left: 0px;
+    margin-right: 40px;
+  }
+
+  .most-unique-text {
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+
+  #kent-bench-photo-container {
+    margin-right: 20px;
+    margin-left: 0px;
+    max-width: 250px;
+  }
+
+  .kent-bench-photo {
+    width: 250px;
+  }
+
+  #ring-photo-container {
+    order: 1;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-left: 0px;
+  }
+
+  .ring-photo {
+    width: 250px;
+  }
+
+  .most-unique {
+    margin-left: 0px;
+  }
+
+  .kent-design-photo-container {
+    margin-left: 15px;
+    margin-right: 0px;
+    max-width: 250px;
+  }
+
+  footer {
+    font-size: 27px;
+    max-width: 730px;
+  }
+
 }
 
 
