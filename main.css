@@ -570,7 +570,7 @@ footer {
   }
 
   main {
-    max-width: 730px;
+    max-width: 720px;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -586,7 +586,8 @@ footer {
   }
 
   h1 {
-    font-size: 55px;
+    font-size: 75px;
+    text-align: center;
   }
 
   .two-word-phrases {
@@ -602,7 +603,7 @@ footer {
   }
 
   .freedom-font {
-    font-size: 90px;
+    font-size: 115px;
   }
 
   .freedom-font-small {
@@ -703,7 +704,6 @@ footer {
   }
 
   #header-img {
-    border: solid green 5px;
     margin-top: 10px;
     width: 100%;
   }
@@ -735,7 +735,6 @@ footer {
   }
 
   #video {
-    border: solid green 5px;
     width: 350px;
     height: 197px;
   }
@@ -773,7 +772,7 @@ footer {
   }
 
   .freedom-font-small {
-    font-size: 55px;
+    font-size: 70px;
   }
 
   .fancy-aqua-font {
@@ -786,9 +785,19 @@ footer {
     text-align: center;
   }
 
+  .two-word-phrases {
+    order: 2;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
   .most-advanced-text, .most-experienced-text, .most-unique-text {
     font-size: 55px;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #advanced-text {
@@ -835,14 +844,63 @@ footer {
   }
 
   .kent-design-photo-container {
+    order: 1;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
     max-width: 300px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .latest, .first-to-know {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  label {
+    font-size: 40px;
+  }
+
+  #email {
+    margin-top: 25px;
+    margin-bottom: 45px;
+  }
+
+
+  #submit {
+    font-size: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 80px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   footer {
     font-size: 27px;
     max-width: 730px;
+    padding-bottom: 30px;
+  }
+
+  .address, .hours, .social {
+    text-align: center;
+  }
+
+  .daily-hours {
+    font-size: 23px;
+  }
+
+  input {
+    width: 100%;
+    max-width: 414px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
 }
@@ -851,6 +909,236 @@ footer {
 /*CSS rules for iPhone X*/
 @media only screen and (max-width: 375px) {
 
+  #nav-bar {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
 
+  .logo-fig {
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  header {
+    margin-top: 200px;
+    margin-bottom: 20px;
+  }
+
+  #header-img {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 60px;
+  }
+
+  main {
+    margin-top: 30px;
+    max-width: 340px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .video-container {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+  .video-caption {
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5px;
+  }
+
+  #video {
+    width: 298px;
+    height: 168px;
+    margin-left: 5px;
+    margin-right: auto;
+  }
+
+
+  #tech {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .rhino-gold-img {
+    max-width: 225px;
+    height: auto;
+  }
+
+  .rhino-gold-logo {
+    max-width: 275px;
+    height: auto;
+  }
+
+  .two-word-phrases {
+    font-size: 45px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .freedom-font, .freedom-font-small {
+    margin-right: 15px;
+  }
+
+  .freedom-font {
+    font-size: 85px;
+  }
+
+  .freedom-font-small {
+    font-size: 70px;
+  }
+
+  .fancy-aqua-font {
+    font-size: 70px;
+  }
+
+  .most-advanced, .most-experienced, .most-unique, .phrases {
+    margin: 15px 15px 75px 15px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .two-word-phrases {
+    order: 2;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .most-advanced-text, .most-experienced-text, .most-unique-text {
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  #advanced-text {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .most-experienced-text {
+    order: 2;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  #experienced-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .most-unique-text {
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+
+  #kent-bench-photo-container {
+    order: 1;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 350px;
+  }
+
+  .kent-bench-photo-caption {
+    max-width: 300px;
+  }
+
+  .kent-bench-photo, .ring-photo, .kent-design-photo {
+    display: block;
+    width: 300px;
+  }
+
+  #ring-photo-container {
+    order: 1;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-left: 0px;
+  }
+
+  .most-unique {
+    margin-left: 0px;
+  }
+
+  .kent-design-photo-container {
+    order: 1;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    max-width: 300px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 27px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .latest, .first-to-know {
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  label {
+    font-size: 40px;
+  }
+
+  #email {
+    margin-top: 25px;
+    margin-bottom: 45px;
+  }
+
+
+  #submit {
+    font-size: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 80px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  footer {
+    font-size: 27px;
+    max-width: 730px;
+    padding-bottom: 30px;
+  }
+
+  .address, .hours, .social {
+    text-align: center;
+  }
+
+  .daily-hours {
+    font-size: 23px;
+  }
+
+  input {
+    width: 100%;
+    max-width: 414px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
 }
