@@ -110,7 +110,8 @@ main {
   padding-bottom: 40px;
 }
 
-.video {
+.video-container {
+  margin-top: 50px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -121,6 +122,7 @@ main {
   font-size: 23px;
   align-items: center;
   margin-top: 15px;
+  margin-bottom: 50px;
 }
 
 .state-text {
@@ -441,7 +443,7 @@ footer {
 
 
 /*CSS rules for iPad Pro*/
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 
   #header-img {
     max-width: 600px;
@@ -555,7 +557,7 @@ footer {
 
 
 /*CSS rules for iPad*/
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
   #nav-bar {
     font-size: 25px;
@@ -682,12 +684,173 @@ footer {
 
 
 /*CSS rules for iPhone 6/7/8 Plus*/
-@media (max-width: 414px) {
+@media only screen and (max-width: 414px) {
+
+  #nav-bar {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .logo-fig {
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  header {
+    margin-top: 200px;
+    margin-bottom: 20px;
+  }
+
+  #header-img {
+    border: solid green 5px;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 65px;
+  }
+
+  main {
+    margin-top: 30px;
+    max-width: 380px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .video-container {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+  .video-caption {
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5px;
+  }
+
+  #video {
+    border: solid green 5px;
+    width: 350px;
+    height: 197px;
+  }
+
+
+  #tech {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .rhino-gold-img {
+    max-width: 250px;
+    height: auto;
+  }
+
+  .rhino-gold-logo {
+    max-width: 300px;
+    height: auto;
+  }
+
+  .two-word-phrases {
+    font-size: 45px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .freedom-font, .freedom-font-small {
+    margin-right: 15px;
+  }
+
+  .freedom-font {
+    font-size: 105px;
+  }
+
+  .freedom-font-small {
+    font-size: 55px;
+  }
+
+  .fancy-aqua-font {
+    font-size: 80px;
+  }
+
+  .most-advanced, .most-experienced, .most-unique, .phrases {
+    margin: 15px 10px 75px 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .most-advanced-text, .most-experienced-text, .most-unique-text {
+    font-size: 55px;
+    margin-top: 10px;
+  }
+
+  #advanced-text {
+    margin-right: 30px;
+  }
+
+  .most-experienced-text {
+    order: 2;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  #experienced-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .most-unique-text {
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+
+  #kent-bench-photo-container {
+    order: 1;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 350px;
+  }
+
+  .kent-bench-photo, .ring-photo, .kent-design-photo {
+    display: block;
+    width: 300px;
+  }
+
+  #ring-photo-container {
+    order: 1;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-left: 0px;
+  }
+
+  .most-unique {
+    margin-left: 0px;
+  }
+
+  .kent-design-photo-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 300px;
+  }
+
+  footer {
+    font-size: 27px;
+    max-width: 730px;
+  }
 
 }
 
 
 /*CSS rules for iPhone X*/
-@media (max-width: 375px) {
+@media only screen and (max-width: 375px) {
+
+
 
 }
