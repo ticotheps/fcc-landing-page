@@ -53,11 +53,10 @@ header {
   left: 0px;
   right: 0px;
   font-family: 'Arapey', serif;
-  font-size: 30px;
+  font-size: 35px;
   border: solid 5px white;
   border-radius: 10px;
   width: 100%;
-  max-width: 1200px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -87,7 +86,6 @@ header {
 
 .nav-link:hover {
   color: aqua;
-  font-size: 35px;
 }
 
 a {
@@ -102,7 +100,7 @@ main {
   background-color: gray;
   align-items: center;
   width: 100%;
-  max-width: 1050px;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
@@ -131,15 +129,15 @@ main {
   margin-right: 5px;
 }
 
-iframe {
-  border: solid white 7px;
+#video {
+  border: solid 7px aqua;
   border-radius: 10px;
 }
 
 .most-advanced, .most-experienced, .most-unique{
   align-items: center;
   justify-content: space-between;
-  margin: 20px 20px 70px 20px;
+  margin: 20px 30px 70px 30px;
   color: white;
 }
 
@@ -176,12 +174,12 @@ iframe {
 #kent-bench-photo-container {
   order: 2;
   margin-top: 30px;
-  max-width: 700px;
+  max-width: 400px;
 }
 
 .kent-bench-photo {
   display: block;
-  width: 350px;
+  width: 400px;
   margin: auto;
   border: solid 5px white;
   border-radius: 10px;
@@ -203,7 +201,7 @@ iframe {
   border: solid white 5px;
   border-radius: 10px;
   display: block;
-  width: 350px;
+  width: 400px;
   margin: auto;
 }
 
@@ -220,7 +218,7 @@ iframe {
 
 h1, .two-word-phrases {
   color: white;
-  font-size: 80px;
+  font-size: 100px;
   margin-top: 40px;
   margin-bottom: 20px;
 }
@@ -233,9 +231,9 @@ h1, .two-word-phrases {
 
 .fancy-aqua-font {
   font-family: 'Allura', cursive;
-  font-size: 70px;
+  font-size: 85px;
   color: aqua;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .freedom-font, .freedom-font-small {
@@ -245,11 +243,11 @@ h1, .two-word-phrases {
 }
 
 .freedom-font {
-  font-size: 120px;
+  font-size: 145px;
 }
 
 .freedom-font-small {
-  font-size: 65px;
+  font-size: 85px;
 }
 
 .phrases {
@@ -264,9 +262,9 @@ h3 {
 }
 
 .kent-design-photo-container {
-  margin-left: 40px;
+  margin-left: 60px;
   margin-right: 20px;
-  width: 350px;
+  width: 400px;
 }
 
 .kent-design-photo {
@@ -294,6 +292,10 @@ h3 {
   border: solid aqua 5px;
 }
 
+.two-word-phrases {
+  font-size: 60px;
+}
+
 form {
   text-align: center;
   margin-top: 50px;
@@ -311,7 +313,7 @@ input {
 }
 
 label {
-  font-size: 30px;
+  font-size: 40px;
   color: white;
   margin-right: 12px;
 }
@@ -333,8 +335,8 @@ input::placeholder {
   background-color: white;
   border: 3px solid aqua;
   border-radius: 10px;
-  width: 175px;
-  height: 50px;
+  width: 200px;
+  height: 75px;
 }
 
 #submit:hover {
@@ -344,12 +346,12 @@ input::placeholder {
 }
 
 h4 {
-  margin-top: 100px;
-  margin-bottom: 0px;
+  margin-top: 150px;
+  padding-bottom: 60px;
   margin-left: 100px;
   margin-right: 100px;
   color: white;
-  font-size: 30px;
+  font-size: 45px;
   text-align: center;
 }
 
@@ -358,19 +360,21 @@ h4 {
 }
 
 .latest, .first-to-know {
-  font-size: 24px;
   color: aqua;
   text-align: center;
 }
 
 .latest {
+  font-size: 45px;
   margin-top: 150px;
-  margin-bottom: 0px;
+  padding-bottom: 0px;
   margin-left: 150px;
   margin-right: 150px;
 }
 
 .first-to-know {
+  font-size: 32px;
+  color: white;
   margin-top: 0px;
   margin-bottom: 10px;
   margin-left: 150px;
@@ -386,12 +390,12 @@ h4 {
 }
 
 #hours-font, #address-font, #social-font {
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'Pacifico', cursive;
 }
 
 .directions:hover {
-  font-size: 26px;
+  font-size: 30px;
   text-decoration: underline;
   color: blue;
 }
@@ -414,8 +418,8 @@ h4 {
 
 footer {
   font-family: 'Arapey', serif;
-  font-size: 22px;
-  max-width: 1200px;
+  font-size: 27px;
+  max-width: 1400px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -455,12 +459,31 @@ footer {
     padding-right: 10px;
   }
 
+  .video-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #video {
+    display: block;
+    width: 719px;
+    height: 402px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .video-caption {
+    font-size: 18px;
+    width: 650px;
+  }
+
   h1, .two-word-phrases {
     font-size: 65px;
   }
 
   .two-word-phrases {
-    font-size: 55px;
+    font-size: 50px;
     margin-top: 10px;
     margin-right: 0px;
     margin-bottom: 10px;
@@ -475,11 +498,16 @@ footer {
   }
 
   .freedom-font-small {
-    font-size: 70px;
+    font-size: 65px;
+  }
+
+  .fancy-aqua-font {
+    font-size: 75px;
+    margin-right: 10px;
   }
 
   .most-advanced, .most-experienced, .most-unique {
-    margin: 10px 10px 50px 15px;
+    margin: 30px 30px 60px 30px;
   }
 
   .most-advanced-text, .most-experienced-text, .most-unique-text {
@@ -503,22 +531,22 @@ footer {
   #kent-bench-photo-container {
     margin-right: 15px;
     margin-left: 0px;
-    max-width: 325px;
+    max-width: 300px;
   }
 
   .kent-bench-photo {
-    width: 325px;
+    width: 300px;
   }
 
   #ring-photo-container {
     order: 1;
-    margin-left: 0px;
+    margin-left: 20px;
     margin-right: 0px;
     padding-left: 0px;
   }
 
   .ring-photo {
-    width: 325px;
+    width: 275px;
   }
 
   .most-unique {
@@ -528,12 +556,16 @@ footer {
   .kent-design-photo-container {
     margin-left: 15px;
     margin-right: 0px;
-    max-width: 325px;
+    max-width: 300px;
+  }
+
+  .phrases {
+    margin-top: 40px;
   }
 
   h4 {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 40px;
   }
 
@@ -570,9 +602,28 @@ footer {
   }
 
   main {
-    max-width: 720px;
+    max-width: 700px;
     padding-left: 5px;
     padding-right: 5px;
+  }
+
+  .video-container {
+    display: block;
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+  #video {
+    display: block;
+    width: 521px;
+    height: 293px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .video-caption {
+    font-size: 18px;
+    width: 650px;
   }
 
   .rhino-gold-img {
@@ -586,8 +637,12 @@ footer {
   }
 
   h1 {
-    font-size: 75px;
-    text-align: center;
+    flex-direction: column;
+    font-size: 110px;
+    max-width: 550px;
+    margin-top: 70px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .two-word-phrases {
@@ -599,11 +654,13 @@ footer {
   }
 
   .freedom-font, .freedom-font-small {
-    margin-right: 15px;
+    margin-right: 7px;
   }
 
   .freedom-font {
-    font-size: 115px;
+    font-size: 165px;
+    margin-top: 0px;
+    margin-left: 15px;
   }
 
   .freedom-font-small {
@@ -612,10 +669,12 @@ footer {
 
   .fancy-aqua-font {
     font-size: 55px;
+    margin-left: 0px;
   }
 
   .most-advanced, .most-experienced, .most-unique {
     margin: 10px 10px 50px 15px;
+    padding-left: 20px;
   }
 
   .most-advanced-text, .most-experienced-text, .most-unique-text {
@@ -631,13 +690,14 @@ footer {
   }
 
   .most-experienced-text {
+    margin-left: 0px;
     margin-right: 0px;
     padding-right: 0px;
   }
 
   #experienced-text {
     margin-left: 0px;
-    margin-right: 40px;
+    margin-right: 0px;
   }
 
   .most-unique-text {
@@ -646,16 +706,18 @@ footer {
   }
 
   #kent-bench-photo-container {
-    margin-right: 20px;
+    align-items: center;
+    margin-right: 15px;
     margin-left: 0px;
-    max-width: 250px;
+    max-width: 225px;
   }
 
   .kent-bench-photo {
-    width: 250px;
+    width: 225px;
   }
 
   #ring-photo-container {
+    align-items: center;
     order: 1;
     margin-left: 10px;
     margin-right: 0px;
@@ -666,19 +728,48 @@ footer {
     width: 250px;
   }
 
+  .ring-photo-caption {
+    max-width: 250px;
+  }
+
   .most-unique {
     margin-left: 0px;
   }
 
-  .kent-design-photo-container {
-    margin-left: 15px;
+  .two-word-phrases {
+    font-size: 40px;
     margin-right: 0px;
-    max-width: 250px;
+  }
+
+  .phrases {
+    margin-left: 25px;
+  }
+
+  .kent-design-photo-container {
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 15px;
+    max-width: 225px;
+  }
+
+  .kent-bench-photo-caption, .kent-design-photo-caption {
+    max-width: 225px;
+  }
+
+  .latest, .first-to-know {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    font-size: 25px;
+  }
+
+  .latest {
+    font-size: 35px;
   }
 
   footer {
     font-size: 27px;
-    max-width: 730px;
+    max-width: 700px;
   }
 
 }
@@ -688,8 +779,8 @@ footer {
 @media (max-width: 414px) {
 
   #nav-bar {
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 25px;
+    margin-bottom: 30px;
   }
 
   .logo-fig {
@@ -711,10 +802,11 @@ footer {
   h1 {
     text-align: center;
     font-size: 65px;
+    margin-top: 25px;
   }
 
   main {
-    margin-top: 30px;
+    margin-top: 10px;
     max-width: 380px;
     padding-left: 0px;
     padding-right: 0px;
@@ -722,21 +814,26 @@ footer {
 
   .video-container {
     display: block;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 297px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
   .video-caption {
+    max-width: 300px;
     display: block;
     text-align: center;
     font-size: 17px;
-    margin-top: 5px;
+    margin-bottom: 15px;
   }
 
   #video {
-    width: 350px;
-    height: 197px;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -746,13 +843,30 @@ footer {
   }
 
   .rhino-gold-img {
-    max-width: 250px;
+    width: 100%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rhino-gold-container {
+    display: block;
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 40px;
   }
 
   .rhino-gold-logo {
-    max-width: 300px;
+    width: 100%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rhino-gold-logo-caption {
+    max-width: 250px;
+    margin-bottom: 20px;
   }
 
   .two-word-phrases {
@@ -794,7 +908,7 @@ footer {
   }
 
   .most-advanced-text, .most-experienced-text, .most-unique-text {
-    font-size: 55px;
+    font-size: 50px;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -806,37 +920,60 @@ footer {
 
   .most-experienced-text {
     order: 2;
-    margin-right: 0px;
+    margin-right: 25px;
+    margin-left: 5px;
     padding-right: 0px;
+    display: block;
+    width: 315px;
   }
 
   #experienced-text {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px;
+    margin-right: 15px;
   }
 
   .most-unique-text {
-    margin-left: 20px;
-    margin-right: 0px;
+    display: block;
+    width: 315px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #kent-bench-photo-container {
     order: 1;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 350px;
+    max-width: 375px;
+    height: auto;
   }
 
-  .kent-bench-photo, .ring-photo, .kent-design-photo {
+  .kent-bench-photo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 325px;
+    height: auto;
+    display: block;
+  }
+
+  .kent-bench-photo-caption {
+    display: block;
+    height: auto;
+    max-width: 400px;
+  }
+
+  .ring-photo, .kent-design-photo {
     display: block;
     width: 300px;
   }
 
   #ring-photo-container {
     order: 1;
-    margin-left: 10px;
-    margin-right: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
     padding-left: 0px;
+  }
+
+  .ring-photo-caption {
+    display: block;
+    max-width: 300px
   }
 
   .most-unique {
@@ -851,21 +988,42 @@ footer {
     max-width: 300px;
   }
 
+  .kent-design-photo-caption {
+    max-width: 300px;
+  }
+
+  h4 {
+    font-size: 30px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   form {
     width: 100%;
   }
 
   .latest, .first-to-know {
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .latest {
+    font-size: 30px;
+    padding-top: 20px;
   }
 
   label {
+    margin-top: 10px;
     font-size: 40px;
   }
 
   #email {
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 45px;
   }
 
@@ -875,10 +1033,10 @@ footer {
     border-radius: 10px;
     text-align: center;
     margin-bottom: 30px;
-    width: 350px;
+    width: 300px;
     height: 80px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   footer {
@@ -910,7 +1068,6 @@ footer {
 @media (max-width: 375px) {
 
   #nav-bar {
-    font-size: 30px;
     margin-bottom: 20px;
   }
 
@@ -959,7 +1116,7 @@ footer {
   #video {
     width: 298px;
     height: 168px;
-    margin-left: 5px;
+    margin-left: 2px;
     margin-right: auto;
   }
 
@@ -969,18 +1126,25 @@ footer {
     text-align: center;
   }
 
+  .rhino-gold-container {
+    display: block;
+    max-width: 275px;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+
   .rhino-gold-img {
-    max-width: 225px;
+    width: 225px;
     height: auto;
   }
 
   .rhino-gold-logo {
-    max-width: 275px;
+    width: 275px;
     height: auto;
   }
 
   .two-word-phrases {
-    font-size: 45px;
+    font-size: 42px;
     margin-top: 10px;
     margin-right: 0px;
     margin-bottom: 10px;
@@ -996,7 +1160,8 @@ footer {
   }
 
   .freedom-font-small {
-    font-size: 70px;
+    font-size: 55px;
+    margin-right: 7px;
   }
 
   .fancy-aqua-font {
@@ -1004,7 +1169,7 @@ footer {
   }
 
   .most-advanced, .most-experienced, .most-unique, .phrases {
-    margin: 15px 15px 75px 15px;
+    margin: 15px 25px 75px 5px;
     flex-direction: column;
     text-align: center;
   }
@@ -1033,13 +1198,16 @@ footer {
 
   .most-experienced-text {
     order: 2;
-    margin-right: 0px;
+    margin-left: 10px;
+    margin-right: 20px;
     padding-right: 0px;
   }
 
   #experienced-text {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .most-unique-text {
@@ -1075,11 +1243,20 @@ footer {
   }
 
   .kent-design-photo-container {
+    display: block;
     order: 1;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 20px;
+    margin-right: auto;
     margin-bottom: 0px;
     max-width: 300px;
+  }
+
+  .kent-design-photo {
+    width: 290px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   form {
@@ -1087,15 +1264,17 @@ footer {
   }
 
   h4 {
-    font-size: 27px;
+    font-size: 32px;
     padding-left: 5px;
     padding-right: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
   }
 
   .latest, .first-to-know {
-    font-size: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   label {
@@ -1113,7 +1292,7 @@ footer {
     border-radius: 10px;
     text-align: center;
     margin-bottom: 30px;
-    width: 300px;
+    width: 270px;
     height: 80px;
     margin-left: 25px;
     margin-right: 25px;
@@ -1121,7 +1300,7 @@ footer {
 
   footer {
     font-size: 27px;
-    max-width: 730px;
+    max-width: 340px;
     padding-bottom: 30px;
   }
 
@@ -1135,7 +1314,7 @@ footer {
 
   input {
     width: 100%;
-    max-width: 414px;
+    max-width: 270px;
     height: 60px;
     margin-left: 10px;
     margin-right: 10px;
